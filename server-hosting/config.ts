@@ -2,9 +2,9 @@ export const Config = {
      // compulsory parameters
 
      // server hosting region
-     region: '',
+     region: 'us-west-1',
      // server hosting account
-     account: '',
+     account: '183531572792',
      // prefix for all resources in this app
      prefix: 'SatisfactoryHosting',
      // set to false if you don't want an api to
@@ -15,10 +15,12 @@ export const Config = {
 
      // optional parameters
 
+     // If an Elastic IP is assigned to the EC2 instance
+     useElasticIP: true,
      // bucket for storing save files
      // you can use an existing bucket
      // or leave it empty to create a new one
-     bucketName: '',
+     bucketName: 'serverhostingstack-satisfactoryhostingsavesbucket-1w0hh41trxb0c',
      // server hosting vpc
      // Create a vpc and it's id here
      // or leave it empty to use default vpc
