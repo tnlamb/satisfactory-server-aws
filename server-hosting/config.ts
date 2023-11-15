@@ -2,7 +2,7 @@ export const Config = {
      // compulsory parameters
 
      // server hosting region
-     region: 'us-west-1',
+     region: 'us-west-2',
      // server hosting account
      account: '183531572792',
      // prefix for all resources in this app
